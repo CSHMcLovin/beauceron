@@ -1,6 +1,9 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.1.1/foundation.min.css">
+    <!-- TODO: This css should exist inside the weather component-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css">
+
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
@@ -19,8 +22,8 @@
                 Weather for Foobar
             </div>
             <div class="small-3 columns">
-                <div><img src="//icons.wxug.com/i/c/v4/nt_snow.svg"></div>
-                <div><span>Snow</span></div>
+                <div class="weather-icon"><i class="wi wi-night-sleet"></i></div>
+                <div><span>Sleet</span></div>
             </div>
             <div class="small-6 columns">
                 <span>
@@ -43,7 +46,6 @@
         <div class="news columns large-4">
             News
         </div>
-
     </div>
     <script src="https://cdn.jsdelivr.net/foundation/6.1.1/foundation.min.js"></script>
 </body>
