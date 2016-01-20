@@ -1,0 +1,15 @@
+{
+  "name": "Beauceron",
+  "version": "0.0.1",
+  "description": "A dashboard to wake up to",
+  "private": true,
+  "homepage": "https://github.com/CSHMcLovin/beauceron",
+  "bugs": "https://github.com/CSHMcLovin/beauceron/issues",
+  "license": "MIT",
+  "dependencies" : {
+
+  },
+  "devDependencies" : {
+    
+  }
+}
