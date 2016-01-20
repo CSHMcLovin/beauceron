@@ -4,6 +4,41 @@
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
+    <div class="dashboard row expanded">
+        <div class="datetime large-12">
+            <div class="content">
+                01/21/2016 - 07:00 AM
+            </div>
+        </div>
+        <div class="weather columns large-4">
+            <div class="small-3 columns">
+                <div id="curIcon"><img src="//icons.wxug.com/i/c/v4/nt_snow.svg" alt="Snow" class="wx-data" data-station="KNYROCHE118" data-variable="icon_url"></div>
+                <div id="curCond" class="wx-data" data-station="KNYROCHE118" data-variable="condition"><span class="wx-value">Snow</span></div>
+            </div>
+            <div class="small-6 columns">
+                <div id="curTemp" style="color: #30bfef;">
+                <span class="wx-data" data-station="KNYROCHE118" data-variable="temperature">
+                    <span class="wx-value">21.4</span>
+                    <span class="wx-unit">°F</span>
+                </span>
+            </div>
+            <div id="curFeel">
+                <span class="wx-label">Feels Like</span>
+                <span style="color: #30bfef;">
+                    <span class="wx-data" data-station="KNYROCHE118" data-variable="feelslike">
+                        <span class="wx-value">17</span>
+                        <span class="wx-unit">°F</span>
+                    </span>
+                </span>
+                </div>
+            </div>
+            Current Weather
+        </div>
+        <div class="news columns large-4">
+            News
+        </div>
+
+    </div>
     <script src="https://cdn.jsdelivr.net/foundation/6.1.1/foundation.min.js"></script>
 </body>
 </html>

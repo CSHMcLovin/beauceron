@@ -1,4 +1,16 @@
 body {
-  width: 100%;
-  background-color: blue;
+  .dashboard {
+    width: 100%;
+    height: 100%;
+    background-color: burlywood;
+  }
+  .weather {
+    background-color: cornsilk;
+  }
+  .datetime .content {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-size: xx-large;
+  }
 }
